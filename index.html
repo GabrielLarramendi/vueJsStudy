@@ -10,10 +10,19 @@
   </head>
   <body>
     <div id="app">
-      <h1>Informacoes do User</h1>
-      <p>User name: {{ userName }}</p>
-      <p>User name: {{ email }}</p>
-      <p>User Birth: {{ birth }}</p>
+      <div class="nav-bar"></div>
+
+      <div class="product-display">
+        <div class="product-container">
+          <div class="product-image">
+            <img :src="image" alt="Green Socks">
+          </div>
+          <div class="product-info">
+             <h1>{{ product }}</h1> 
+             <a v-bind:href="url" target="_blank">Made by Gabriel</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Mount App -->

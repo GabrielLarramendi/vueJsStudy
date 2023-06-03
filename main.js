@@ -1,9 +1,9 @@
 const app = Vue.createApp({
     data() {
         return {
-            userName: 'Gabriel',
-            email: 'gabriel@gmail.com',
-            birth: '13/03/1998'
+            product: 'Socks',
+            image: "./assets/images/socks_green.jpg",
+            url: "https://www.globo.com/"
         }
     }
 })
